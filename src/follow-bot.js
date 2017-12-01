@@ -19,7 +19,7 @@ const client = new Client({
 
 client.connect(function(err, res){ });
 
-var accounts = ["LILBTHEBASEDGOD", "djkingassassin", "Warx2TheMovie", "Bottom2thatop", "bynsny", "MonsterFunder", "rowdytukgoon", "jstorres", "GNews_Center", "EarthPixDaiIy", "BenWilliam1989", "DanHogman", "christyanthony", "asmithblog", "GoalsOnTrack", "Moosetheprince", "adi_yeezy", "ZOMBIEWASHOTGUN", "ashleygene89", "TIMENOUT", "JohnFromCranber", "seaweed115B", "stanfossum", "WanderWorx", "mtjsblog", "APBsayin", "ShaneDWalters", "MHawkProduction", "BackThePolice", "SLPierce57", "ChrisRCason", "EdaraBabyG", "DigitalDripped", "LifeExtension", "aallen010", "MonsterFunders", "MichaelVonIrvin", "fastretweet_sa", "AvilaVIP", "Explorevscos", "pianomag", "DrBrianKiczek", "sayingperfact", "Scaler17", "mtcrookshank", "NancyRichmond", "FundingExperts", "Mountsplus", "EdPerezLive", "SurvivalPulse", "yeezy_jordan", "Best_Food_Porn", "itslovefeeling", "W_Angels_Wings", "prfectfeeIings", "ToLearnHistory", "IndustriSurplus", "Ravious101", "SpaceEnquiry", "SimonCocking", "ZondaRealEstate", "audiboyg5", "bestspuppy", "DietShop", "CHAMPl0NSLEAGUE", "MrTerrellHarris", "Mindustry_PR", "PyramidsOnMars_", "HungryTruckerAB", "DennisCardiff", "LauVanni", "Manhattanpeachy", "JOKERS_WILD_JJ", "LeadersBest", "BusuyiGuitar", "TeamTrumpAZ", "AMike4761", "LynnConnor45", "AmyJRomine", "cyberceas", "RoxanneBarbour", "Pat_Lorna", "ImBRightTho", "LimitedCards", "Necole_Monroe", "pmatas", "RoseBartu", "livepositive11", "rapgamejordan", "itsFoodporns", "TravelFor_food", "FreddieSirmans", "ThaRealMikeFeez", "Airohub", "iOgrapher", "luckiegirll", "LaydenRobinson", "MySocialPoint", "WritingSpecial", "ScrollsawArt", "creditcard_ccp", "GallagherAuthor", "SarahJunner", "_google__facts", "R47R", "eric_kavanagh", "beautiesofarts", "LarryOzAuthor", "sjredmond", "foodsfact", "Neilsonagain", "scottsantens", "hiptronicmag", "MarionFiedlerTN", "bdmowell", "HOUSEHOLDSTRESS", "Kaitwrites", "RhondaSasser", "RealMuckmaker", "_LILYOTE", "LavanaYoken", "hiphopoverload1", "VinylFresh", "YourNikt", "EricDavisW", "DinamicoPromo", "PublicistAgent2", "JimmyLevyMusic", "sixsoundmagazin", "JakeHargisBooks", "amazonfashion_", "itzTopShelFF", "thetypicalchick", "footballrs", "JackRatchet", "CupAttic", "puntanious", "itsworldbeauty", "lavishstuff", "shane_bruwer", "jackbgoode1", "6hoursleep", "RadioSucksMag", "baefeeling_", "CollageBabe", "Numerology2016", "Relatablefoods", "philshapiro", "bitxhless", "Itstheclothporn", "lizords", "LowkeyLaw", "StudentRushNYC", "Lov3rzLov3U", "jontsai", "greatman0008", "Funny_n_Serious", "tuneofthedayca", "riteshmm60", "CouponistaQueen", "PrellWHO", "OJoeUSA", "ImraanGill", "TOLuxurySuites", "unique_twets", "muleties", "muckrack", "PeaceZicklin", "ZakiyaLarry", "UCStrategies", "CarsADICTS", "NorthLLC", "Trivelle905", "sunsetcolour", "TomFlowers", "learningquotes_", "AtlBizRetweet", "Sarobi", "shawtyypretty_", "DiffuserFM", "AestheticClips_", "CStoreNews_", "BeerRightNowIND", "C0MEDYVINES", "OfficialOEM", "charlescmarquez", "Har_vey007", "CharlesTersolo", "tweetlrk", "OfficialJrichol", "CoolChange80", "48Laws757", "agreencleveland", "SteveO_Writer", "alonshalevsf", "itsOddFuture", "incomeincubator", "i__Shield", "BucklesandBulls", "YouBrandInc", "MikeCookAuthor", "vgonzalesauthor", "JDRichards0322", "verna_water", "itsw0wfacts", "_friend4ever", "Sunni_Tzu", "pulsedaniel", "thegoagency", "OuvrezLeChien", "rejialex7", "Brar_Parkash", "jvdwl", "skip_conover", "ItsDressing", "AwwOutfit", "TheMysteryLadie", "TheSwanns", "facpronline", "c_vongunten", "ahoychrispineda", "OverseerLewis", "MrNaassir", "MimiMemeMeLOL", "laviecockatoo", "lindeeloo1956", "FanYourFlame", "FrugalBookPromo", "Theflowerworld3", "vikkigotcurls", "KyiranFamous", "badgirl_loony", "LuveLifePost", "PainfulPunz", "2A_MAG", "Paksalah", "OfficialTwoDope", "MarvinStone", "VCRebecca", "absolutelypsych", "DJSAppcenter", "WorldMktng", "FriedrickRyan", "NBAInside_Stuff", "EnchantmentLL", "LennyToSaucy_", "SVNPOFoundation", "GayRepublicSwag", "BrendanWitcher", "FairTaxOfficial", "Chop_Media", "Marty_Aftewicz", "CityCadillac", "FeelingHacks", "TheOnlyLowest", "clarkgotbangers", "FAshionn_0", "YARAHAMEDD", "StarCavalli", "fatmamuhamed62", "rosalieinc", "Alex_Carrick", "navarrofrank11", "FeelingLoneIy", "SatyayInfotech", "TerriLyndie", "twodriftersxo", "SmokHaus6", "SteveMotley", "S__a__212", "5thdimdreamz", "TuuTjea", "PopHaydn", "MichaelKNeeley", "CathyTurneyLafs", "ThriftNFlip", "LesliePivin", "Indo_Art_House", "ERamich411", "MBAbstract", "Emalfarb", "thebethogden", "JosephDjdpj", "ChrisWeissCT", "DavidClinchNews", "powerhoster", "Uniquesxy", "Banglaviews", "CAT1PRO", "IAMYOUNGCHITOWN", "pre_desire", "MySkyroam", "dalegriffen", "Annimallover", "Dysrupted", "m7i45", "MrsAndiLutz", "TVRadioDoc", "Jordan__French", "HeidiHmoretti", "Neckillusions", "G6throughF5", "TheFoodPorning", "hiphopgrindtv", "TheRebelPatient", "ARedPillReport", "fooddealsno1", "SharpestSports", "Temoge", "marketingdoctor", "Omganimaldog", "GoSocialAcademy", "BestDealAirline", "MoneyMarkDiggla", "prepperbooks", "tinieblasswat", "glamourgoal", "BernedSt", "ToddGetts", "lord_thc", "NdegeDun", "StewySongs", "realcomedyyy", "ScarlettScotlan", "NorthVibess", "hiimkylehickey", "kreaturebt", "StrengthStack52", "GordWeisflock", "monkeys_robots", "fastmetrics1", "GloriaDarni", "yaromancebooks", "johnrutledge", "labrador_do", "alizexo_", "itstravelscen", "OrganicHealth10", "kylewalz", "CarleeElia", "Anandks123", "dude_fm", "Tiffany_Norris7", "daSportsCommish", "lovelypet12", "thedopestsounds", "JudyNetworks", "NASCARRacingCo", "fuckumalibu", "KardashTruths", "GTHTonWinfield", "Gina_GoodridgeH", "awlasky", "FastLeaderShow", "seedoflife", "HhgtvFitness", "meomine09", "scifibooks33", "dubvLIVE", "GrassRootRevolt", "Only_advanture", "CathyScott", "IamJoharAbbas", "peanutandjojos", "KidsDealsNo1", "LaceyRamot", "NASCHartInc", "SlideBotIO", "itsamericancat", "Golfman072", "watchnews_nawcc", "JustinaHadnott", "RabbitRayy", "monitoringhub", "BabyAnimalPost_", "Durbin47", "abales", "CeciliaGunadia", "KayleeHauesler", "NathanTarantla", "ricordk", "emariei", "PolicyAdvantage", "relevance", "FashionPRGirl_", "jodijeannine", "themixtapemastr", "ShaynaYasui", "Disciple4Lif", "Worldnews_____", "PetOverloads", "Roarkimagine", "u2biker", "AmyCoupal", "WoWheedaLTD", "MarielaCooperri", "OvrdoseVibes", "adampaulgreen", "GrandVillaofPPK", "MLMBigProfits", "Lavy02", "BlackXpoAmerica", "mypassiontest", "AnchorTrec", "aaaliyanusman", "solikobidafiz", "theskkul", "GrandVillaLargo", "DRoseAuthor", "Set_entertainme", "CecilyKorth", "WILLIAMSRETWEET", "kkruse", "ShaeDerringer", "OTheMind", "JamieLetournea", "kourtnxyKardash", "all_freeapps", "horrorbooks33", "WritingCoachSWS", "flipgazemedia", "RCNconnects", "EnriqueFiallo", "SportsLineHotel", "ScottRickhoff", "MusicSuccessADG", "StashStickPen", "BoneDragonComic", "GlizzyGangg_", "fabbaloo", "SusanHerdian", "GrandVillaASP", "KingTurboRicky", "itspaintmyfeea", "Time_Lord2017", "Silverimagelimo", "GrandVillaOB", "literarybooks33", "30SecondSpanlsh", "a1_s25m", "bstowapp", "purplecreamband", "richardwelsh", "GrandVillaofM", "Huntmcm", "getsteward", "NewAppleAwards", "Banatmasr2016", "CoopsCoaching", "bealpat", "CharityStars", "InsuranceLendin", "starhymerdotsXe", "Crossbearer1956", "BAPERosewood", "KareyMeraza", "AoxoA_Creative", "winstonmeiii", "_SweetLovers", "JcliffyHuff", "lovemsgHQ", "4aPeoplesParty", "Dodo_Tribe", "AmberlySilverio", "TerminalAngler", "Revelation1217", "shark_in_ocean", "GrandVillaSTP", "pinki943", "JasSynergy", "Thejadelord", "ItsScaryNature", "AnneJanzer", "ReadCaseyCarter", "VlogsVoyage", "zwriter", "banntty", "RasimSafe6", "MartinAnstee", "careytha1", "AndyAUCD", "jbuchana", "Parkashji1", "ChuckDeVore", "Cam_Who", "AuthorDaco", "Libertyworld", "diamondrcreate", "DylanCornelius", "MINEBITCOIN_", "ChelleMartin47", "NormanTurrell", "YDthebeatmaker1", "mikeberrien", "davidabaileyjr", "StaubLeadership", "MediBasket", "crowdfundingpr_", "LifeFlipMedia", "ChadJRogers"];
+var accounts = ["djkingassassin", "Warx2TheMovie", "CordeiroRick", "zbleumoon", "bynsny", "MonsterFunder", "rowdytukgoon", "jstorres", "GNews_Center", "EarthPixDaiIy", "BenWilliam1989", "williamtincup", "DanHogman", "crowdfundcash", "_Meekalina", "GoalsOnTrack", "Moosetheprince", "adi_yeezy", "ZOMBIEWASHOTGUN", "985TheMixFM", "ashleygene89", "sharker102s", "GeorgeHatcher", "stanfossum", "mtjsblog", "APBsayin", "ShaneDWalters", "MHawkProduction", "MarkBird17", "BackThePolice", "SLPierce57", "ChrisRCason", "EdaraBabyG", "DigitalDripped", "LifeExtension", "DraftDiamonds", "MonsterFunders", "fastretweet_sa", "emitoms", "AvilaVIP", "ltsquotestumblr", "Explorevscos", "DrBrianKiczek", "sayingperfact", "Scaler17", "NancyRichmond", "LetzKeepItReal", "FundingExperts", "DMashak", "TheMindsConsole", "EBaySurfer", "LifeboatHQ", "Mountsplus", "EdPerezLive", "YoungJHollyWood", "SurvivalPulse", "yeezy_jordan", "Best_Food_Porn", "itslovefeeling", "W_Angels_Wings", "ToLearnHistory", "IndustriSurplus", "Ravious101", "SpaceEnquiry", "SimonCocking", "audiboyg5", "bestspuppy", "DietShop", "CHAMPl0NSLEAGUE", "MrTerrellHarris", "Mindustry_PR", "PyramidsOnMars_", "HungryTruckerAB", "DennisCardiff", "LauVanni", "Manhattanpeachy", "JOKERS_WILD_JJ", "LeadersBest", "gettingbalance", "mayhemstudios", "BusuyiGuitar", "TeamTrumpAZ", "joeygiggles", "AMike4761", "LynnConnor45", "AmyJRomine", "Alberthexa_", "awakeatlastrock", "cyberceas", "AAA_Stripe_Pro", "RoxanneBarbour", "2nd_To_None", "Pat_Lorna", "ConserValidity", "ImBRightTho", "LimitedCards", "Necole_Monroe", "pmatas", "FamousTruth", "RoseBartu", "livepositive11", "logosporns", "rapgamejordan", "itsFoodporns", "PaxVillageVoice", "TravelFor_food", "FreddieSirmans", "ThaRealMikeFeez", "Airohub", "iOgrapher", "LaydenRobinson", "MySocialPoint", "WritingSpecial", "ScrollsawArt", "Lov3Lov3rz", "iLoveCSTAX", "EdmEternal", "GallagherAuthor", "SarahJunner", "denverpokerdude", "barriebriggs", "R47R", "eric_kavanagh", "beautiesofarts", "LarryOzAuthor", "foodsfact", "LaughterRide", "Neilsonagain", "hiptronicmag", "MarionFiedlerTN", "bdmowell", "filmystic", "NYGPROMOZ", "HOUSEHOLDSTRESS", "Kaitwrites", "RhondaSasser", "RealMuckmaker", "_LILYOTE", "LavanaYoken", "hiphopoverload1", "VinylFresh", "YourNikt", "EricDavisW", "DinamicoPromo", "KristaNeher", "PublicistAgent2", "JimmyLevyMusic", "sixsoundmagazin", "JakeHargisBooks", "amazonfashion_", "thetypicalchick", "footballrs", "JackRatchet", "CupAttic", "puntanious", "itsworldbeauty", "lavishstuff", "DjJWattsLive", "shane_bruwer", "jackbgoode1", "6hoursleep", "RadioSucksMag", "beer47", "baefeeling_", "CollageBabe", "Numerology2016", "Relatablefoods", "chrisgoagency", "YoungDieselBBM", "bitxhless", "WeLov3Lov3rz", "Itstheclothporn", "lizords", "LowkeyLaw", "StudentRushNYC", "PNBurrows", "Lov3rzLov3U", "StrangeFunnies", "1037HNSradio", "jontsai", "africaupdates", "greatman0008", "CZSharon", "Funny_n_Serious", "tuneofthedayca", "riteshmm60", "CouponistaQueen", "PrellWHO", "OJoeUSA", "ImraanGill", "TOLuxurySuites", "unique_twets", "muleties", "muckrack", "PeaceZicklin", "Arysandys", "UCStrategies", "CarsADICTS", "freekidbooks", "NorthLLC", "Trivelle905", "sunsetcolour", "TomFlowers", "learningquotes_", "RebeccaRennerFL", "Sarobi", "DiffuserFM", "AestheticClips_", "CStoreNews_", "Video_Promoter", "BeerRightNowIND", "C0MEDYVINES", "charlescmarquez", "Har_vey007", "MyriamSelbig", "omartiz", "CharlesTersolo", "Mike_Press19", "HendrixDesign", "motivationlive", "tweetlrk", "OfficialJrichol", "bearded_boys", "sprtcrdlui", "PaulaSheets24", "48Laws757", "agreencleveland", "SteveO_Writer", "alonshalevsf", "troycap", "incomeincubator", "BucklesandBulls", "YouBrandInc", "MikeCookAuthor", "JDRichards0322", "verna_water", "CapertonFineArt", "itsw0wfacts", "_friend4ever", "Sunni_Tzu", "silversdave", "pulsedaniel", "thegoagency", "BecomeACeleb", "OuvrezLeChien", "Brar_Parkash", "jvdwl", "KrystenBachler", "skip_conover", "ItsDressing", "AwwOutfit", "TheMysteryLadie", "facpronline", "c_vongunten", "Motobec810", "ahoychrispineda", "hairhuck", "OverseerLewis", "mysimplymary", "MrNaassir", "DivasOn24", "MimiMemeMeLOL", "Totalradionet", "laviecockatoo", "lindeeloo1956", "bchtravel", "FanYourFlame", "FrugalBookPromo", "instudioEphoto", "Theflowerworld3", "KyiranFamous", "badgirl_loony", "kurtwvs", "DallasRemington", "PainfulPunz", "2A_MAG", "Paksalah", "MarvinStone", "RetiredTeacherD", "Jixavision", "VCRebecca", "MusicPRclub", "absolutelypsych", "DJSAppcenter", "WorldMktng", "FriedrickRyan", "NBAInside_Stuff", "EnchantmentLL", "LennyToSaucy_", "SVNPOFoundation", "GayRepublicSwag", "IranPlus", "AcesEbooks", "IamDV_Official", "shonelledouglas", "marrymarr10", "RZPromotions1", "BrendanWitcher", "FairTaxOfficial", "heykim", "Marty_Aftewicz", "CityCadillac", "Smoovee_DJayy", "FeelingHacks", "YARAHAMEDD", "StarCavalli", "rosalieinc", "SportsTalkLine", "Alex_Carrick", "navarrofrank11", "SatyayInfotech", "twodriftersxo", "SmokHaus6", "815wrldtrvlr", "protoninfo", "friendstegram", "SteveMotley", "S__a__212", "5thdimdreamz", "PopHaydn", "MichaelKNeeley", "CathyTurneyLafs", "ThriftNFlip", "Nascar_Tom", "GamingWScott", "LesliePivin", "Indo_Art_House", "ERamich411", "MBAbstract", "EnvironThreads", "Emalfarb", "thebethogden", "ChrisWeissCT", "DavidClinchNews", "powerhoster", "BeyondMorale", "CAT1PRO", "IAMYOUNGCHITOWN", "msmitchell357", "itshoosierdaddy", "Indigo_Adults", "pre_desire", "almaghribtoday", "GlobalFMA", "dynamixreel", "MySkyroam", "dalegriffen", "Annimallover", "Dysrupted", "m7i45", "MrsAndiLutz", "TVRadioDoc", "P_Davinci", "Jordan__French", "HeidiHmoretti", "Jim_Peoples_", "fellingsads", "Neckillusions", "TheFoodPorning", "hiphopgrindtv", "bianccogroup", "John__Black", "ARedPillReport", "fooddealsno1", "Temoge", "marketingdoctor", "SwaggerjackProd", "Omganimaldog", "GoSocialAcademy", "BestDealAirline", "MoneyMarkDiggla", "prepperbooks", "tinieblasswat", "IndustriNorge", "BernedSt", "abwmcertified", "accesssonora", "HotelsAvailable", "DUNKNOWN1", "DavidKamatoy", "AZmazo_Reed", "ToddGetts", "lord_thc", "lihua08", "realcomedyyy", "nightlovers0", "ScarlettScotlan", "gregkihn", "NorthVibess", "kreaturebt", "bradhanks", "StrengthStack52", "GordWeisflock", "activprayer", "designnominees", "EvilDeadNews", "monkeys_robots", "C_E_Lawrence", "fastmetrics1", "cynicalhumor", "GloriaDarni", "yaromancebooks", "johnrutledge", "labrador_do", "itstravelscen", "kylewalz", "Snikk", "upternative", "CarleeElia", "deathbyhibachi", "FadedIndustry", "Anandks123", "dude_fm", "Tiffany_Norris7", "Terpstir", "daSportsCommish", "lovelypet12", "thedopestsounds", "JudyNetworks", "DilTown", "NASCARRacingCo", "marksmithvr", "fuckumalibu", "KardashTruths", "kevinmartinblog", "FastLeaderShow", "SonyaSone7", "HhgtvFitness", "meomine09", "scifibooks33", "dubvLIVE", "maak224", "GrassRootRevolt", "Only_advanture", "CathyScott", "textycafe", "KidsDealsNo1", "LaceyRamot", "syntecgroup", "PrepperSilver", "BublishMe", "SlideBotIO", "itsamericancat", "Joseph_Santoro", "newsography1", "watchnews_nawcc", "JustinaHadnott", "RabbitRayy", "Cross_Genre", "monitoringhub", "BabyAnimalPost_", "CeciliaGunadia", "ricordk", "bbvida", "emariei", "PolicyAdvantage", "relevance", "FashionPRGirl_", "jodijeannine", "7DaysOfSmiles", "themixtapemastr", "ShaynaYasui", "Disciple4Lif", "Worldnews_____", "PetOverloads", "Roarkimagine", "WoWheedaLTD", "MarielaCooperri", "OvrdoseVibes", "adampaulgreen", "GrandVillaofPPK", "LoudPack_Tevin", "MLMBigProfits", "_susandaniels", "Lavy02", "BlackXpoAmerica", "mypassiontest", "BibliosBlood", "MDesbarres", "solikobidafiz", "theskkul", "CorrectWinger", "GrandVillaLargo", "DRoseAuthor", "thenameblogger", "Set_entertainme", "CecilyKorth", "BMWLACHIKC1", "WILLIAMSRETWEET", "MusicLov3rzWW", "ShaeDerringer", "OKCStormWatcher", "IvyGalasso", "GrandVillaofDBW", "UndersHead", "all_freeapps", "commonsharing", "WritingCoachSWS", "horrorbooks33", "Brad_Justus", "sandcrapper", "flipgazemedia", "TheAfricaMentor", "EnriqueFiallo", "SportsLineHotel", "AryanBiz", "ScottRickhoff", "OdessaGBlack", "WomenCentric", "MusicSuccessADG", "StashStickPen", "fabbaloo", "ThomasWillie", "SusanHerdian", "GrandVillaASP", "KingTurboRicky", "mclaubscher", "itspaintmyfeea", "Lora_Realtor", "rasangarocks", "Silverimagelimo", "GrandVillaOB", "literarybooks33", "nicksautographs", "30SecondSpanlsh", "a1_s25m", "greencitymedia", "00ggzz", "purplecreamband", "richardwelsh", "IM_PEACH_45", "BezalelPower", "GrandVillaofM", "Huntmcm", "getsteward", "NewAppleAwards", "Am1ssen", "Banatmasr2016", "CoopsCoaching", "itsWriteNow100", "bealpat", "InsuranceLendin", "starhymerdotsXe", "H_Town_74", "Crossbearer1956", "CynthiaStott", "GainMoreLeads", "Sash2T", "KareyMeraza", "AoxoA_Creative", "_SweetLovers", "JcliffyHuff", "lovemsgHQ", "4aPeoplesParty", "AmberlySilverio", "Dodo_Tribe", "nasoma564", "Revelation1217", "shark_in_ocean", "GrandVillaSTP", "pinki943", "JasSynergy", "zenful_woman", "ItsScaryNature", "BScharp22", "AnneJanzer", "VlogsVoyage", "HansKAnderson", "zwriter", "TripVerse", "barterb", "banntty", "cybersecdr", "RasimSafe6", "MartinAnstee", "GOLDMOUF", "careytha1", "AndyAUCD", "jbuchana", "Parkashji1", "AtlanticTranspG", "bettol23", "GeekJaskaur", "MiaoReport", "diamondrcreate", "DylanCornelius", "MINEBITCOIN_", "ChelleMartin47", "NormanTurrell", "davidabaileyjr", "DefiantSun", "Honey80517156", "MediBasket", "crowdfundingpr_", "Eykis", "LifeFlipMedia", "ElephantCrunch", "FosterKinn", "world_flag", "TikiGirlTreas", "beauty0fnature", "JolandaDieteman", "USAmericaFans1", "PitchYourStuff", "KobmaxQueen", "DetGoodMoney", "suzannehobbs365", "MDP_Podcast", "brambledowndes1", "LadyPatriot777", "NatriceR", "AlulaSnap", "Dip_Think", "Manusichhillarr", "NishaCarelse", "krasi333", "Rainbojangles", "italamerican", "AnnieMakind", "BreedersLove", "DataGek", "leecm363", "TrailerSource", "CutesDaily", "teamlerumo", "mobiledeals121", "hotchickdiaries", "Sylpete", "JG_social", "PCL_Money", "FieldLevel", "Timeonmyhandcom", "conciseonline", "casita_sol", "gdlcolorado", "HD_Thomson", "MesmerizngViews", "justaguy654321", "SteadyGloed", "BDSMRomance1", "hoda_kaa78", "AndyWhite1234", "freedomtank", "OnlineDDS", "RoseBartuFans", "constancefic", "BigDave74Tex", "Mr_Residuals", "RandyFloss", "WiseCrowdGlobal", "brandiluv", "RozPattyWriters", "bitcoins_get", "DJFrankieee", "JanaeOdonell", "Tito171", "DeniseSalmon1", "seoalien", "KealaLanae", "AnthonySald", "Sci_Instinct", "family_law_info", "GoldnRetiever", "OspreyFlyer", "Chris_Gerbehy", "420StonerCorner", "Citizenone3", "SwapnilK05", "lunamation", "mike4354", "BITCLUBHQ", "Vlad221180", "Urban_Island_", "jeffkagan", "mantasies", "Pauline_Campos", "michaelbsacks", "ToryValentina", "NAFS2016", "BuddhaDaHippie", "LionelGeek", "SugarGal_69", "rubyoklahoma25", "KevaPrentise", "RomanticErotic2", "joycetstrand", "financialpanthe", "ART_PIXS", "K29Omg", "MikeArend", "AR_Annahita", "RabbitRidgeWine", "Cristianromanc", "DogZoneUK", "ReallyBob", "StartMyPlanB", "jamiescottsmith", "PFJohnson", "TweetStarFollow", "AZanswers", "OnlyRealPromo", "AllenEllis14", "AngeloSind", "Deacon_1971", "MShiningElk", "VintageArtCafe", "DickInDaDope", "_clippersnation", "ProSmallCaps", "MikeEllsworth", "CyrusWebb", "RecoverMySpirit", "TransgenderU", "LyndaAtchison", "edna_mariaa", "warrenwarmachi1", "haldonahue", "trump4pres13", "ethniccanuck", "me7haa", "dsshep1959", "dgs615", "BfriendShipGoaI", "BrownGJ2", "Macel_Corbin", "RandyStillinger", "into_view_mag", "jordankwilsonjr", "MattaAbraham1", "Scumezza", "ConservGayGuy", "DrAurore", "RasimSafe10", "JohnEgreek", "Gurdjieff_Words", "The_Anti_Fox", "SquawkingPoints", "sportobsession6", "GalleryhopCom", "JeffreeTrouble", "freewillfighter", "MomsGetReal", "ekaterinasamard", "dpwallace", "onsip", "deathrep", "_kdwight", "ArrestedAplomb", "SagArcher", "MentorTerri", "SoulRebelMusic", "hwolpoff", "MicheleTrainer", "LisaYoga1995", "cdcatx", "HannaGepheart", "957CRUZFM", "VidRetal", "Joe_Bauer", "MusembiRap", "SexInWords", "shasta247", "pasquale0022", "Ryan7Read", "AWSA", "darielgarner", "drtiemintimwu", "FreePublicTrans", "NYspanish", "dedactiv", "conbrood", "Quinn_TFZ", "conundrumstix", "KentStuverRE", "YourFireStory", "milesw", "WifiGallery", "MichaelAddams", "GizmoSays", "solarcollab", "bo2k_now", "AbideMindfully", "nancelarson", "americandream09", "startupers", "optim1stic", "jafelco", "DutchRhudy", "mrgogetit247", "jasoncaine", "lealuna", "PlanetLARP", "Timothy_Elkin", "Ed4Online", "ladyartness", "Dave_Roessler", "shelhorowitz", "webutekk", "marveleveryday", "ReganGroup", "500DrumSquad", "ChandraWademan", "InstaVR", "Lastmangoinfla", "tryshold", "toonchooi", "graca5683", "KaizaraKaye", "SkiPow7", "therapywild", "KimBaoule", "GUCCISLIMEE", "Oswashi", "Ant_The_Manager", "CryptoWorld101", "paradise2012", "yinnus", "FrancisFriedman", "Tobivibes", "3seawarrior47", "Mrs_Sara_Fields", "BhusriHeart", "durk13", "MalibuMel07", "AntiDuper", "RapStarVidz", "DeniseNatishan", "tonypiparo", "BlowAKissJB", "PlanTheTrade_", "Shamstress", "murder_mickey", "ocfooddiva", "shogoldy", "Moorkk", "___BESTJOKKES__", "bajaruss", "robbjas", "Liars_Inc", "EffieShrevee", "AlamoOnTheRise", "KidsAndWomen", "BillPaige02", "lrnogrphy", "cooperengineer", "bayonnebernie", "Kaybirds", "JennDark", "ChaseCarbon", "MyPenNameOnly", "gastarbooks", "RWozneyVentures", "tenswordpoem", "AskAdamExpert", "GVFortMyers", "DBerg_writer", "Joyce5577", "wpiajbmdkox1", "bulldoghill", "ConversionAid", "iemilyjohannson", "redoyakash95", "yellooh", "GregoryRMiller", "TaliaLozaro", "Collazo474", "writesromance", "ricktreat42", "WeightLossTipps", "LABYRINTH23_KSC", "wcpreston", "FineAssApril", "PghMoms", "winesellersltd", "NonSlipSurfaces", "DeSmogCanada", "JohnTSonne", "zerodoubtzone", "aastharani82", "jobseekus", "tammiefields", "saurabh09991", "TheDigitalMrkt", "101apparel", "jndevito", "HIPAAEx", "InTheElections", "TruthSoldierz", "hostfully_", "PDXStephenG", "SurrendrDorothy", "DrShirleyDavis", "Creativefamfun", "himanshu9869", "PeggyMcAloon", "deathbynothin", "FamousStan_", "redideo", "kathylstadler", "WebsiteBits", "Hautex_Fashion", "FoundersGyan", "mvasey", "1192Folsom", "KeeleyLoehner", "last_buffoon", "therichguccibae", "PainNewsNetwork", "EngCareerCoach", "zipcapitalgroup", "realKDilan", "AndyTtree", "CDW_Jessica", "MathaSmarra", "KidsOfInmates", "RosaRuya", "suefernphillips", "Darko246", "donrelyea", "PaulDalyy", "Ghetto_Lono", "affiliate_tom", "gvdunedin", "SharonCraigen", "ColleenD5000", "Kindle_E_Books", "CJeanneGilbert", "AngelaTague", "golden23rus", "islovelife9", "CajunTVNetwork", "american_love12", "UssLibertyy", "Guerrerocxcx", "inthebasement", "TirzaMotivates", "peopleshark", "Janice_Garner", "timmackrap", "hopecassity", "Mikey_Renzo1", "GEOYNOT", "_BlueTsunami", "AuthorJCHowell", "LornaWarrik", "BettieHillman", "pyaariguriya", "fineartfan", "thelagosgirl", "TheTrendingTalk", "mybeautiful_nat", "Markenglisharch", "Syrah_Queen", "PeterDParrish", "btcfarhad", "Romantic_Artist", "cellphio", "QuirkOfTIme", "ItsPromoKing", "IndigenousSWs", "bigstickdogg", "NiritBraun", "luckyorange", "madisonmcw7", "OrenErgas", "bobswetzonline", "unknownalice", "Savers_Place", "andj7871", "MPhilipOliver", "JohnFildes", "AmericanEmpath", "Ma1ohier", "BostonTechCorp", "MyBrandt", "DJRossstar", "Curriki", "LifelongSucess", "MexicoTravel360", "discoveriesUSA", "JenniferMeacher", "SurvivalDays", "dannyreb", "FeralislandMick", "nmitch", "SharpieGirlSue", "iRadek6", "ShariLauree", "mindandvoice", "Derrick5L", "homedon5", "grandvlakeland", "wisejohnp", "vannessalesniew", "MotivationLP7", "DYKCars", "MommyDiscipline", "boystoysdirect", "Artisti777", "StevenageTown" ];
 
 /*
 const options = { name: 'Contest-Winners', description: 'Friendship is the true prize'  };
@@ -52,27 +52,27 @@ T.post('lists/create', options, function(error, data, response) {
 
 /*
 
-
-{ id: 933448458400178200,
-  id_str: '933448458400178176',
-  name: 'Contest-Winners',
-  uri: '/vannscontests/lists/contest-winners',
+{ id: 936734729998540800,
+  id_str: '936734729998540800',
+  name: 'New Auto Owners',
+  uri: '/mtpoker/lists/new-auto-owners',
   subscriber_count: 0,
   member_count: 0,
   mode: 'public',
-  description: 'Friendship is the true prize',
-  slug: 'contest-winners',
-  full_name: '@vannscontests/contest-winners',
-  created_at: 'Wed Nov 22 21:33:49 +0000 2017',
+  description: '',
+  slug: 'new-auto-owners',
+  full_name: '@mtpoker/new-auto-owners',
+  created_at: 'Fri Dec 01 23:12:17 +0000 2017',
   following: false,
   user: 
-   { id: 15188191,
-     id_str: '15188191',
-     name: 'Contests, Jackpots & more',
-     screen_name: 'vannscontests',
+   { id: 15120246,
+     id_str: '15120246',
+     name: 'mtpoker',
+     screen_name: 'mtpoker',
+
 */
 
-const list_id = '933448458400178176';
+const list_id = '936734729998540800';
 
 var a = 0;
 
@@ -82,19 +82,77 @@ const pause = 60000;
 
 postUser();
 
+// createList();
+
+function createList(){
+	
+	
+  console.log('Starting List Create');
+
+  var T = new Twit( {
+      consumer_key: process.env.twitter_consumer_key,
+      consumer_secret: process.env.twitter_consumer_secret,
+      access_token: process.env.twitter_access_token,
+      access_token_secret: process.env.twitter_access_token_secret
+    } );
+
+  	var name = 'New Auto Owners';
+  	var description = '';
+  	
+  	return;
+
+  	//
+	//  Creates a new list for the authenticated user. Note that you can create up to 1000 lists per account.
+	//
+	T.post('lists/create', { name: name, description: description  }, function(error, data, response) {
+	  // console.log(data);
+	  // console.log(data.statuses.length);
+	  // console.log(response);
+
+	  if( data != undefined && !error && response.statusCode == 200 ){
+	  	// res.write(JSON.stringify(data));	
+	  	
+ 		  console.log(data);
+
+	  	
+	  } // end if
+	  else if( data != undefined && !error )
+	   {
+			console.log(response.statusCode);
+			res.write(response.statusCode);
+			res.end(); 			
+
+	   }	
+	  else if( error )
+	  {
+		console.log(error);	
+		console.log(data);
+		console.log(response.statusCode);
+		console.log(response.statusCode);
+		res.write(response.statusCode);
+		res.end();
+	  }
+	  
+
+	}); // end search/tweets
+
+	
+}
+
 function postUser(){
 	
 	console.log(accounts[a]);
 	
 	var method  = 'post';
 	var command = 'friendships/create';
-	var options = { screen_name: accounts[a] };
+	var options = { screen_name: accounts[a], friendship: process.env.twitter_handle };
 	
 	getCache( command, options, function(err, res){		
 		if( res == undefined ){
 			// Cache Miss!!
 			console.log('Cache MISS: postUser');
-			twitterApi(method, command, options, function(data){				
+			twitterApi(method, command, options, function(data){	
+				wait(pause);			
 				postList();
 			});		
 		}else{
@@ -118,6 +176,7 @@ function postList(){
 			// Cache Miss!!
 			console.log('Cache MISS: postList');
 			twitterApi(method, command, options, function(data){
+				wait(pause);
 				getFriends();
 			});			
 		}else{
@@ -143,10 +202,11 @@ function getFriends(){
 				    		// console.log(data);
 						});
 					}
+				wait(pause);	
 				getFollowers();	
 			});
 		}else{	
-			console.log('Cache MISS: getFriends');
+			console.log('Cache HIT: getFriends');
 			// cache hit		
 			for( i = 0; i < data.users.length; i++){
 			    	recordAccount(data.users[i], i, function(error, results, data){
